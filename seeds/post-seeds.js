@@ -3,12 +3,12 @@ const { Post } = require('../models');
 const postData = [
   {
     id: 1,
-    title: "Convert your HTML table into datatables",
+    title: "How to convert your HTML table into datatables",
     post_text: "DataTables.net’s jQuery JS library is an easy and free way to convert your HTML tables into user-friendly datatables with advanced interaction controls.",
     user_id: 1 
   },
   { id: 2,
-    title: "Getting Git right, with tutorials, news and tips.",
+    title: "When you just get git.",
     post_text: "Git is a free and open-source version control system, originally created by Linus Torvalds in 2005. Unlike older centralized version control systems such as SVN and CVS, Git is distributed: every developer has the full history of their code repository locally. This makes the initial clone of the repository slower, but subsequent operations such as commit, blame, diff, merge, and log dramatically faster.",
     user_id: 2
   },
@@ -20,7 +20,7 @@ const postData = [
   },
   {
     id: 4,
-    title: "What is hashing and how does it work?",
+    title: "What is hashing in the tech language?",
     post_text: "Hashing is the process of transforming any given key or a string of characters into another value. This is usually represented by a shorter, fixed-length value or key that represents and makes it easier to find or employ the original string. The most popular use for hashing is the implementation of hash tables.",
     user_id: 4
   }
