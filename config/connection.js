@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-require('dotenv').config({path: '.env'});
+require('dotenv').config();
 
 // Create connection to our database, pass in your MySQL information for username and password
 let sequelize;
